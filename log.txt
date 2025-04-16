@@ -205,3 +205,210 @@ src\com\netease\mc\mod\filter\FilterHelper.java:473: ƒGƒ‰[: ƒNƒ‰ƒX ItemStack‚Ìƒ
 ƒm[ƒg: Ú×‚ÍA-Xlint:uncheckedƒIƒvƒVƒ‡ƒ“‚ğw’è‚µ‚ÄÄƒRƒ“ƒpƒCƒ‹‚µ‚Ä‚­‚¾‚³‚¢B
 ƒm[ƒg: ˆê•”‚ÌƒƒbƒZ[ƒW‚ÍŠÈ—ª‰»‚³‚ê‚Ä‚¢‚Ü‚·B-Xdiags:verbose‚ÅÄƒRƒ“ƒpƒCƒ‹‚µ‚ÄŠ®‘S‚Èo—Í‚ğæ“¾‚µ‚Ä‚­‚¾‚³‚¢
 ƒGƒ‰[41ŒÂ
+src\com\netease\mc\mod\filter\FilterHelper.java:34: ƒGƒ‰[: ƒpƒbƒP[ƒWcom.google.common.base‚Í‘¶İ‚µ‚Ü‚¹‚ñ
+import com.google.common.base.Joiner;
+                             ^
+src\com\netease\mc\mod\filter\FilterHelper.java:35: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+import com.netease.mc.mod.filter.AESHelper;
+                                ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX AESHelper
+  êŠ: ƒpƒbƒP[ƒW com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:36: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+import com.netease.mc.mod.filter.FilterWhiteListHelper;
+                                ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX FilterWhiteListHelper
+  êŠ: ƒpƒbƒP[ƒW com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:37: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+import com.netease.mc.mod.filter.FilterWrapper;
+                                ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX FilterWrapper
+  êŠ: ƒpƒbƒP[ƒW com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:38: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+import com.netease.mc.mod.filter.Helper;
+                                ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX Helper
+  êŠ: ƒpƒbƒP[ƒW com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:39: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+import com.netease.mc.mod.filter.LoadFilterReRunnable;
+                                ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX LoadFilterReRunnable
+  êŠ: ƒpƒbƒP[ƒW com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:40: ƒGƒ‰[: ƒpƒbƒP[ƒWcom.netease.mc.mod.network.common‚Í‘¶İ‚µ‚Ü‚¹‚ñ
+import com.netease.mc.mod.network.common.GameState;
+                                        ^
+src\com\netease\mc\mod\filter\FilterHelper.java:41: ƒGƒ‰[: ƒpƒbƒP[ƒWcom.netease.mc.mod.network.common‚Í‘¶İ‚µ‚Ü‚¹‚ñ
+import com.netease.mc.mod.network.common.Library;
+                                        ^
+src\com\netease\mc\mod\filter\FilterHelper.java:42: ƒGƒ‰[: ƒpƒbƒP[ƒWcom.netease.mc.mod.network.message.request‚Í‘¶İ‚µ‚Ü‚¹‚ñ
+import com.netease.mc.mod.network.message.request.MessageRequest;
+                                                 ^
+src\com\netease\mc\mod\filter\FilterHelper.java:73: ƒGƒ‰[: ƒpƒbƒP[ƒWorg.apache.logging.log4j‚Í‘¶İ‚µ‚Ü‚¹‚ñ
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\com\netease\mc\mod\filter\FilterHelper.java:74: ƒGƒ‰[: ƒpƒbƒP[ƒWorg.apache.logging.log4j‚Í‘¶İ‚µ‚Ü‚¹‚ñ
+import org.apache.logging.log4j.Logger;
+                               ^
+src\com\netease\mc\mod\filter\FilterHelper.java:77: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+    public static final Logger logger = LogManager.getLogger(FilterHelper.class);
+                        ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX Logger
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:77: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+    public static final Logger logger = LogManager.getLogger(FilterHelper.class);
+                                        ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” LogManager
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:114: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        String result = Joiner.on((String) "\n").join(lines);
+                        ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” Joiner
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:119: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        int code = nameLib ? Library.reviewName((String) message) : Library.reviewWord((String) message);
+                             ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” Library
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:119: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        int code = nameLib ? Library.reviewName((String) message) : Library.reviewWord((String) message);
+                                                                    ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” Library
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:120: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        Helper.debugLog((String) ("doSdkFilterInner:code:" + code + ":" + message));
+        ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” Helper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:139: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        FilterWrapper.getSchduler().schedule(new Runnable() {
+        ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” FilterWrapper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:165: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        Helper.debugLog((String) ("doLauncherSdkFilterInner message:" + message));
+        ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” Helper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:170: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        MessageRequest mrq = new MessageRequest();
+        ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX MessageRequest
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:170: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        MessageRequest mrq = new MessageRequest();
+                                 ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX MessageRequest
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:192: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        LoadFilterReRunnable loadThread = new LoadFilterReRunnable();
+        ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX LoadFilterReRunnable
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:192: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        LoadFilterReRunnable loadThread = new LoadFilterReRunnable();
+                                              ^
+  ƒVƒ“ƒ{ƒ‹:   ƒNƒ‰ƒX LoadFilterReRunnable
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:193: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        FilterWrapper.getSchduler().scheduleAtFixedRate((Runnable) loadThread, 0L, 20L, TimeUnit.MINUTES);
+        ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” FilterWrapper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:198: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        String decryptionKey = GameState.filterkey;
+                               ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” GameState
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:199: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        String filterPathPrefex = GameState.filterpath;
+                                  ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” GameState
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:217: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+                byte[] reBytes = AESHelper.Decrypt((byte[]) data, (String) decryptionKey);
+                                 ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” AESHelper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:235: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+                byte[] reBytes = AESHelper.Decrypt((byte[]) data, (String) decryptionKey);
+                                 ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” AESHelper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:282: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        String result = Joiner.on((String) "\n").join(lines);
+                        ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” Joiner
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:370: ƒGƒ‰[: Message‚ÉƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñ
+        String str = component.getString();
+                              ^
+  com.mojang.brigadier.Message‚ÌƒNƒ‰ƒXEƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+src\com\netease\mc\mod\filter\FilterHelper.java:371: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+        if (str.equals(filterStr = FilterWhiteListHelper.filter((String) str, (boolean) useSdk, (int) logType,
+                                   ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” FilterWhiteListHelper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:385: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+                args[i] = FilterWhiteListHelper.filter((String) ((String) args[i]), (boolean) useSdk, (int) logType,
+                          ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” FilterWhiteListHelper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:401: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+                    : Component.literal((String) FilterWhiteListHelper.filter((String) text, (boolean) useSdk,
+                                                 ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” FilterWhiteListHelper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:434: ƒGƒ‰[: IForgeItemStack‚ÉƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñ
+        if (itemstack.has(DataComponents.CUSTOM_NAME)) {
+                     ^
+  net.minecraftforge.common.extensions.IForgeItemStack‚ÌƒNƒ‰ƒXEƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+src\com\netease\mc\mod\filter\FilterHelper.java:437: ƒGƒ‰[: ƒNƒ‰ƒX ItemStack‚Ìƒƒ\ƒbƒh set‚Íw’è‚³‚ê‚½Œ^‚É“K—p‚Å‚«‚Ü‚¹‚ñB
+            itemstack.set(DataComponents.CUSTOM_NAME, (Object) name);
+                     ^
+  Šú‘Ò’l: DataComponentType<? super T>,T
+  ŒŸo’l:    DataComponentType<Component>,Object
+  ——R: „˜_•Ï”T‚É‚ÍA•s“K‡‚È‹«ŠE‚ª‚ ‚è‚Ü‚·
+    ãŒÀ: Component,Object
+    ‰ºŒÀ: Object
+  T‚ªŒ^•Ï”‚Ìê‡:
+    ƒƒ\ƒbƒh <T>set(DataComponentType<? super T>,T)‚ÅéŒ¾‚³‚ê‚Ä‚¢‚éT extends Object
+src\com\netease\mc\mod\filter\FilterHelper.java:446: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+            title = FilterWhiteListHelper.filter((String) title, (boolean) false, (int) logType);
+                    ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” FilterWhiteListHelper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:448: ƒGƒ‰[: ƒVƒ“ƒ{ƒ‹‚ğŒ©‚Â‚¯‚ç‚ê‚Ü‚¹‚ñ
+            author = FilterWhiteListHelper.filter((String) author, (boolean) false, (int) logType);
+                     ^
+  ƒVƒ“ƒ{ƒ‹:   •Ï” FilterWhiteListHelper
+  êŠ: ƒNƒ‰ƒX FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:456: ƒGƒ‰[: •s“K‡‚ÈŒ^: ArrayList<Filterable>‚ğList<Filterable<Component>>‚É•ÏŠ·‚Å‚«‚Ü‚¹‚ñ:
+                    new Filterable((Object) title, content.title().filtered()), author, content.generation(), pages,
+                                                                                                              ^
+src\com\netease\mc\mod\filter\FilterHelper.java:458: ƒGƒ‰[: ƒNƒ‰ƒX ItemStack‚Ìƒƒ\ƒbƒh set‚Íw’è‚³‚ê‚½Œ^‚É“K—p‚Å‚«‚Ü‚¹‚ñB
+            itemstack.set(DataComponents.WRITTEN_BOOK_CONTENT, (Object) newContent);
+                     ^
+  Šú‘Ò’l: DataComponentType<? super T>,T
+  ŒŸo’l:    DataComponentType<WrittenBookContent>,Object
+  ——R: „˜_•Ï”T‚É‚ÍA•s“K‡‚È‹«ŠE‚ª‚ ‚è‚Ü‚·
+    ãŒÀ: WrittenBookContent,Object
+    ‰ºŒÀ: Object
+  T‚ªŒ^•Ï”‚Ìê‡:
+    ƒƒ\ƒbƒh <T>set(DataComponentType<? super T>,T)‚ÅéŒ¾‚³‚ê‚Ä‚¢‚éT extends Object
+src\com\netease\mc\mod\filter\FilterHelper.java:461: ƒGƒ‰[: IForgeItem‚ÉƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñ
+            if (!(((BlockItem) item).getBlock() instanceof ShulkerBoxBlock)) {
+                                    ^
+  net.minecraftforge.common.extensions.IForgeItem‚ÌƒNƒ‰ƒXEƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+src\com\netease\mc\mod\filter\FilterHelper.java:467: ƒGƒ‰[: ƒNƒ‰ƒX ItemStack‚Ìƒƒ\ƒbƒh set‚Íw’è‚³‚ê‚½Œ^‚É“K—p‚Å‚«‚Ü‚¹‚ñB
+                itemstack.set(DataComponents.CONTAINER, (Object) itemCompound);
+                         ^
+  Šú‘Ò’l: DataComponentType<? super T>,T
+  ŒŸo’l:    DataComponentType<ItemContainerContents>,Object
+  ——R: „˜_•Ï”T‚É‚ÍA•s“K‡‚È‹«ŠE‚ª‚ ‚è‚Ü‚·
+    ãŒÀ: ItemContainerContents,Object
+    ‰ºŒÀ: Object
+  T‚ªŒ^•Ï”‚Ìê‡:
+    ƒƒ\ƒbƒh <T>set(DataComponentType<? super T>,T)‚ÅéŒ¾‚³‚ê‚Ä‚¢‚éT extends Object
+ƒm[ƒg: src\com\netease\mc\mod\filter\FilterHelper.java‚Ì‘€ì‚ÍA–¢ƒ`ƒFƒbƒN‚Ü‚½‚ÍˆÀ‘S‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+ƒm[ƒg: Ú×‚ÍA-Xlint:uncheckedƒIƒvƒVƒ‡ƒ“‚ğw’è‚µ‚ÄÄƒRƒ“ƒpƒCƒ‹‚µ‚Ä‚­‚¾‚³‚¢B
+ƒm[ƒg: ˆê•”‚ÌƒƒbƒZ[ƒW‚ÍŠÈ—ª‰»‚³‚ê‚Ä‚¢‚Ü‚·B-Xdiags:verbose‚ÅÄƒRƒ“ƒpƒCƒ‹‚µ‚ÄŠ®‘S‚Èo—Í‚ğæ“¾‚µ‚Ä‚­‚¾‚³‚¢
+ƒGƒ‰[41ŒÂ

@@ -40,7 +40,6 @@ import com.netease.mc.mod.filter.LoadFilterReRunnable;
 import com.netease.mc.mod.network.common.GameState;
 import com.netease.mc.mod.network.common.Library;
 import com.netease.mc.mod.network.message.request.MessageRequest;
-import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -138,7 +137,6 @@ public class FilterHelper {
 
     public static void doLauncherSdkFilterHandler() {
         FilterWrapper.getSchduler().schedule(new Runnable() {
-
             @Override
             public void run() {
                 ThreadRunning = true;
@@ -204,10 +202,6 @@ public class FilterHelper {
         ArrayList<String> md5List = FilterHelper.readFilterReMd5(filterPathPrefex + "/gamelib.txt", decryptionKey);
         ArrayList<String> reList = FilterHelper.readFilterReFromFile(filterPathPrefex + "/GAME_LIB.txt", decryptionKey,
                 true, md5List.size() == 1 ? md5List.get(0) : null);
-
-        // 新しいコード: 復号化されたデータをファイルに書き込む
-        writeDecryptedDataToFile(reList, filterPathPrefex + "/decrypted_data.txt");
-
         logger.info("load filter re success!!! ");
         ArrayList<String> combined = new ArrayList<String>(reList);
         FilterHelper.setNamingFilterRE(combined);
@@ -472,16 +466,6 @@ public class FilterHelper {
                 itemCompound.nonEmptyItems().forEach(x -> FilterHelper.filterItemStack(x, access));
                 itemstack.set(DataComponents.CONTAINER, (Object) itemCompound);
             }
-        }
-    }
-
-    // 新しいメソッド: 復号化されたデータをファイルに書き込む
-    private static void writeDecryptedDataToFile(ArrayList<String> data, String filePath) {
-        try {
-            Files.write(Paths.get(filePath), data, StandardCharsets.UTF_8);
-            logger.info("Decrypted data written to: " + filePath);
-        } catch (IOException e) {
-            logger.error("Error writing decrypted data to file", e);
         }
     }
 }
