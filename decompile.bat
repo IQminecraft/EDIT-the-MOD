@@ -18,10 +18,10 @@ jar xf ..\%TARGET_JAR% %INNER_CLASS3%
 cd ..
 
 echo === CFRでデコンパイル中... ===
-java -jar %CFR_JAR% temp_class\%TARGET_CLASS% --outputdir src
-java -jar %CFR_JAR% temp_class\%INNER_CLASS1% --outputdir src
-java -jar %CFR_JAR% temp_class\%INNER_CLASS2% --outputdir src
-java -jar %CFR_JAR% temp_class\%INNER_CLASS3% --outputdir src
+java -jar %CFR_JAR% temp_class\%TARGET_CLASS% --outputdir src >> log.txt 2>&1
+java -jar %CFR_JAR% temp_class\%INNER_CLASS1% --outputdir src >> log.txt 2>&1
+java -jar %CFR_JAR% temp_class\%INNER_CLASS2% --outputdir src >> log.txt 2>&1
+java -jar %CFR_JAR% temp_class\%INNER_CLASS3% --outputdir src >> log.txt 2>&1
 
 echo === 完了！src に Java ファイルが出力されました ===
 pause

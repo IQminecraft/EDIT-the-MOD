@@ -1,0 +1,207 @@
+src\com\netease\mc\mod\filter\FilterHelper.java:34: エラー: パッケージcom.google.common.baseは存在しません
+import com.google.common.base.Joiner;
+                             ^
+src\com\netease\mc\mod\filter\FilterHelper.java:35: エラー: シンボルを見つけられません
+import com.netease.mc.mod.filter.AESHelper;
+                                ^
+  シンボル:   クラス AESHelper
+  場所: パッケージ com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:36: エラー: シンボルを見つけられません
+import com.netease.mc.mod.filter.FilterWhiteListHelper;
+                                ^
+  シンボル:   クラス FilterWhiteListHelper
+  場所: パッケージ com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:37: エラー: シンボルを見つけられません
+import com.netease.mc.mod.filter.FilterWrapper;
+                                ^
+  シンボル:   クラス FilterWrapper
+  場所: パッケージ com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:38: エラー: シンボルを見つけられません
+import com.netease.mc.mod.filter.Helper;
+                                ^
+  シンボル:   クラス Helper
+  場所: パッケージ com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:39: エラー: シンボルを見つけられません
+import com.netease.mc.mod.filter.LoadFilterReRunnable;
+                                ^
+  シンボル:   クラス LoadFilterReRunnable
+  場所: パッケージ com.netease.mc.mod.filter
+src\com\netease\mc\mod\filter\FilterHelper.java:40: エラー: パッケージcom.netease.mc.mod.network.commonは存在しません
+import com.netease.mc.mod.network.common.GameState;
+                                        ^
+src\com\netease\mc\mod\filter\FilterHelper.java:41: エラー: パッケージcom.netease.mc.mod.network.commonは存在しません
+import com.netease.mc.mod.network.common.Library;
+                                        ^
+src\com\netease\mc\mod\filter\FilterHelper.java:42: エラー: パッケージcom.netease.mc.mod.network.message.requestは存在しません
+import com.netease.mc.mod.network.message.request.MessageRequest;
+                                                 ^
+src\com\netease\mc\mod\filter\FilterHelper.java:74: エラー: パッケージorg.apache.logging.log4jは存在しません
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\com\netease\mc\mod\filter\FilterHelper.java:75: エラー: パッケージorg.apache.logging.log4jは存在しません
+import org.apache.logging.log4j.Logger;
+                               ^
+src\com\netease\mc\mod\filter\FilterHelper.java:78: エラー: シンボルを見つけられません
+    public static final Logger logger = LogManager.getLogger(FilterHelper.class);
+                        ^
+  シンボル:   クラス Logger
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:78: エラー: シンボルを見つけられません
+    public static final Logger logger = LogManager.getLogger(FilterHelper.class);
+                                        ^
+  シンボル:   変数 LogManager
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:115: エラー: シンボルを見つけられません
+        String result = Joiner.on((String) "\n").join(lines);
+                        ^
+  シンボル:   変数 Joiner
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:120: エラー: シンボルを見つけられません
+        int code = nameLib ? Library.reviewName((String) message) : Library.reviewWord((String) message);
+                             ^
+  シンボル:   変数 Library
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:120: エラー: シンボルを見つけられません
+        int code = nameLib ? Library.reviewName((String) message) : Library.reviewWord((String) message);
+                                                                    ^
+  シンボル:   変数 Library
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:121: エラー: シンボルを見つけられません
+        Helper.debugLog((String) ("doSdkFilterInner:code:" + code + ":" + message));
+        ^
+  シンボル:   変数 Helper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:140: エラー: シンボルを見つけられません
+        FilterWrapper.getSchduler().schedule(new Runnable() {
+        ^
+  シンボル:   変数 FilterWrapper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:167: エラー: シンボルを見つけられません
+        Helper.debugLog((String) ("doLauncherSdkFilterInner message:" + message));
+        ^
+  シンボル:   変数 Helper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:172: エラー: シンボルを見つけられません
+        MessageRequest mrq = new MessageRequest();
+        ^
+  シンボル:   クラス MessageRequest
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:172: エラー: シンボルを見つけられません
+        MessageRequest mrq = new MessageRequest();
+                                 ^
+  シンボル:   クラス MessageRequest
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:194: エラー: シンボルを見つけられません
+        LoadFilterReRunnable loadThread = new LoadFilterReRunnable();
+        ^
+  シンボル:   クラス LoadFilterReRunnable
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:194: エラー: シンボルを見つけられません
+        LoadFilterReRunnable loadThread = new LoadFilterReRunnable();
+                                              ^
+  シンボル:   クラス LoadFilterReRunnable
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:195: エラー: シンボルを見つけられません
+        FilterWrapper.getSchduler().scheduleAtFixedRate((Runnable) loadThread, 0L, 20L, TimeUnit.MINUTES);
+        ^
+  シンボル:   変数 FilterWrapper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:200: エラー: シンボルを見つけられません
+        String decryptionKey = GameState.filterkey;
+                               ^
+  シンボル:   変数 GameState
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:201: エラー: シンボルを見つけられません
+        String filterPathPrefex = GameState.filterpath;
+                                  ^
+  シンボル:   変数 GameState
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:223: エラー: シンボルを見つけられません
+                byte[] reBytes = AESHelper.Decrypt((byte[]) data, (String) decryptionKey);
+                                 ^
+  シンボル:   変数 AESHelper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:241: エラー: シンボルを見つけられません
+                byte[] reBytes = AESHelper.Decrypt((byte[]) data, (String) decryptionKey);
+                                 ^
+  シンボル:   変数 AESHelper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:288: エラー: シンボルを見つけられません
+        String result = Joiner.on((String) "\n").join(lines);
+                        ^
+  シンボル:   変数 Joiner
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:376: エラー: Messageにアクセスできません
+        String str = component.getString();
+                              ^
+  com.mojang.brigadier.Messageのクラス・ファイルが見つかりません
+src\com\netease\mc\mod\filter\FilterHelper.java:377: エラー: シンボルを見つけられません
+        if (str.equals(filterStr = FilterWhiteListHelper.filter((String) str, (boolean) useSdk, (int) logType,
+                                   ^
+  シンボル:   変数 FilterWhiteListHelper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:391: エラー: シンボルを見つけられません
+                args[i] = FilterWhiteListHelper.filter((String) ((String) args[i]), (boolean) useSdk, (int) logType,
+                          ^
+  シンボル:   変数 FilterWhiteListHelper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:407: エラー: シンボルを見つけられません
+                    : Component.literal((String) FilterWhiteListHelper.filter((String) text, (boolean) useSdk,
+                                                 ^
+  シンボル:   変数 FilterWhiteListHelper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:440: エラー: IForgeItemStackにアクセスできません
+        if (itemstack.has(DataComponents.CUSTOM_NAME)) {
+                     ^
+  net.minecraftforge.common.extensions.IForgeItemStackのクラス・ファイルが見つかりません
+src\com\netease\mc\mod\filter\FilterHelper.java:443: エラー: クラス ItemStackのメソッド setは指定された型に適用できません。
+            itemstack.set(DataComponents.CUSTOM_NAME, (Object) name);
+                     ^
+  期待値: DataComponentType<? super T>,T
+  検出値:    DataComponentType<Component>,Object
+  理由: 推論変数Tには、不適合な境界があります
+    上限: Component,Object
+    下限: Object
+  Tが型変数の場合:
+    メソッド <T>set(DataComponentType<? super T>,T)で宣言されているT extends Object
+src\com\netease\mc\mod\filter\FilterHelper.java:452: エラー: シンボルを見つけられません
+            title = FilterWhiteListHelper.filter((String) title, (boolean) false, (int) logType);
+                    ^
+  シンボル:   変数 FilterWhiteListHelper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:454: エラー: シンボルを見つけられません
+            author = FilterWhiteListHelper.filter((String) author, (boolean) false, (int) logType);
+                     ^
+  シンボル:   変数 FilterWhiteListHelper
+  場所: クラス FilterHelper
+src\com\netease\mc\mod\filter\FilterHelper.java:462: エラー: 不適合な型: ArrayList<Filterable>をList<Filterable<Component>>に変換できません:
+                    new Filterable((Object) title, content.title().filtered()), author, content.generation(), pages,
+                                                                                                              ^
+src\com\netease\mc\mod\filter\FilterHelper.java:464: エラー: クラス ItemStackのメソッド setは指定された型に適用できません。
+            itemstack.set(DataComponents.WRITTEN_BOOK_CONTENT, (Object) newContent);
+                     ^
+  期待値: DataComponentType<? super T>,T
+  検出値:    DataComponentType<WrittenBookContent>,Object
+  理由: 推論変数Tには、不適合な境界があります
+    上限: WrittenBookContent,Object
+    下限: Object
+  Tが型変数の場合:
+    メソッド <T>set(DataComponentType<? super T>,T)で宣言されているT extends Object
+src\com\netease\mc\mod\filter\FilterHelper.java:467: エラー: IForgeItemにアクセスできません
+            if (!(((BlockItem) item).getBlock() instanceof ShulkerBoxBlock)) {
+                                    ^
+  net.minecraftforge.common.extensions.IForgeItemのクラス・ファイルが見つかりません
+src\com\netease\mc\mod\filter\FilterHelper.java:473: エラー: クラス ItemStackのメソッド setは指定された型に適用できません。
+                itemstack.set(DataComponents.CONTAINER, (Object) itemCompound);
+                         ^
+  期待値: DataComponentType<? super T>,T
+  検出値:    DataComponentType<ItemContainerContents>,Object
+  理由: 推論変数Tには、不適合な境界があります
+    上限: ItemContainerContents,Object
+    下限: Object
+  Tが型変数の場合:
+    メソッド <T>set(DataComponentType<? super T>,T)で宣言されているT extends Object
+ノート: src\com\netease\mc\mod\filter\FilterHelper.javaの操作は、未チェックまたは安全ではありません。
+ノート: 詳細は、-Xlint:uncheckedオプションを指定して再コンパイルしてください。
+ノート: 一部のメッセージは簡略化されています。-Xdiags:verboseで再コンパイルして完全な出力を取得してください
+エラー41個
